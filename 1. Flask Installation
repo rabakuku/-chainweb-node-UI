@@ -39,10 +39,20 @@ sudo nginx -s reload
 #Installing and Using Gunicorn
 sudo apt-get install gunicorn -y
 
-Run the flask web app with gunicorn. The name of your flask instance must be app.
+#Run the flask web app with gunicorn. The name of your flask instance must be app.
 
 cd ..
 gunicorn -w 3 flask_project:app
 
 #to stop the server
 pkill gunicorn
+
+
+
+#create a folder inside flask_project
+mkdir template
+
+create index.html and all the code.
+nano index.html 
+
+crontab -e
