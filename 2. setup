@@ -1,1 +1,5 @@
+#create a folder inside flask_project
+mkdir template
 
+create index.html and all the code.
+nano index.html 
