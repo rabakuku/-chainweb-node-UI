@@ -29,7 +29,7 @@ def kda_price():
     }
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': '9b28e833-73e1-48dc-95bd-3adf6f7c732d',
+        'X-CMC_PRO_API_KEY': 'YOURCOINMARKETCAPAPIKEYHERE',
     }
 
     session = Session()
